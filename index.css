@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form{
+  background-color: rgb(178, 182, 185);
+  width: 50%;
+ padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+label,input, select, textarea{
+  display: block;
+  margin-bottom: 5px;
+  width: 65%;
+  height: 25px;
+  
+}
+
+#comment{
+  height: 15%;
+  border: 1px solid black;
+  border-radius: 5px ;
+  font-size: 1em;
+  resize: none;
+}

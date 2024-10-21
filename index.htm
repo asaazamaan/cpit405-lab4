@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cpit405-lab4</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <h1>Great Auto Parts -Order Form </h1>
+
+  <form>
+    
+   <label for="fname">First Name:</label>
+   <input name= "fname" id= "fname" type="text" placeholder="Enter your first name">
+
+
+   <label for="lname">Last Name:</label>
+   <input name= "lname" id= "lname" type="text" placeholder="Enter your last name">
+
+   <label for="email">Email:</label>
+   <input name= "email" id= "email" type="email" placeholder="Enter your email address">
+
+   <label for="phoneNumber">Phone number:</label>
+   <input name= "phoneNumber" id= "phoneNumber" type="text" placeholder="Enter your phone number">
+
+   <label for="make">Make:</label>
+   <select name="make" id="make">
+    <option value="Honda">Honda</option>
+    <option value="Toyta">Toyta</option>
+    <option value="Ford">Ford</option>
+    <option value="BMW">BMW</option>
+    <option value="Tesla">Tesla</option>
+   </select>
+
+
+
+   <label for="model">Model:</label>
+   <select name="model" id="model">
+    <option value="Camry">Camry</option>
+    <option value="Accord">Accord</option>
+   </select>
+
+   <label for="year"> Year:</label>
+   <input name="year" id="year" type="number" placeholder="YYYY" min="1988" max="2025">
+
+   <label for="date"> Date: </label>
+   <input name="date" id="date" type="date">
+
+   <label for="sparePart">Spare Part:</label>
+   <input name= "sparePart" id= "sparePart" type="text" placeholder="Enter the spare part you need">
+
+   <label for="quantiity"> Quantity:</label>
+   <input name="quantiity" id="quantiity" type="number" min="1" max="10" placeholder="0">
+
+   <label for="comment">Comment:</label>
+   <textarea name=comment"" id="comment" placeholder="Enter your comment" cols="40" rows="4"></textarea>
+
+ 
+    <input  id="sbmit" type="submit">
+   
+
+  </form>
+
+  
+</body>
+</html>
